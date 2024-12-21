@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wholeContainer {
+    width: calc(100% - 316px);
+    margin: 0 auto;
+    margin-top: calc(2.5vh);
+    margin-bottom: calc(10.55vh);
+    padding: 96px;
+    background-color: #FFAEAF;
+}
+
+.mainContainer {
+    padding: 96px 66px;
+    background-color: #fff;
+}
+
+.headerContainer {
+    text-align: center;
+}
+
+.headerContainer :first-child {
+    color: #ED00A6;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Inter;
+    padding-bottom: 12px;
+}
+
+.headerContainer :nth-child(2) {
+    color: #181D27;
+    font-size: 48px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.96px;
+    padding-bottom: 24px;
+    font-family: Inter;
+}
+
+.headerContainer :last-child {
+    color: #535862;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Inter;
+}
+
+.mainContainer div:nth-child(2), div:nth-child(4) {
+    text-align: left;
+}
+
+.mainContainer div:nth-child(3) {
+    text-align: right;
+}
+
+.mainContainer>div:not(:last-child) {
+    padding-bottom: 96px;
+}
